@@ -1,0 +1,9 @@
+#!bin/bash
+echo "What's Your Awesome Name?"
+read NAME
+mkdir $NAME
+for i in 1 2 3 4 5
+	do
+	touch ./$NAME/$NAME$i.cpp
+	done
+
