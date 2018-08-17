@@ -13,5 +13,5 @@ int main(){
 // display individually. 
 // instead of storing values and displaying them, do calc in cout.
 	cout<< "\nArithmetic Operations:\ni -> integer, i = "<<i<< "\nf -> float, f = "<< f << "\n\ni+f = " << i+f << "\nf-i = " << f-i << "\ni*f = " << i*f << "\ni/f = " << i/f << "\nrem(f/i) = " << ((int)f)%i <<"\n" <<endl;
-
+	return 0;
 }
