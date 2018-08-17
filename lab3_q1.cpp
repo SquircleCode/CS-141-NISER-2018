@@ -14,7 +14,7 @@ int main(){
 	cout << "\n\nVALUES STORED IN: \nboolean b = " << b << "\nint i = " << i << "\nfloat f = " << f << "\ndouble d = " << d << "\nchar c = " << c << endl ;
 // out out of datatype size
 	cout << "\n\nSIZE OF \nboolean is " << sizeof(b) << " bytes\nint is " << sizeof(i) << " bytes\nfloat is " << sizeof(f) << " bytes\ndouble is " << sizeof(d) << " bytes\nchar is " << sizeof(c)<< " bytes\n"<< endl;	
-
+	return 0;
 }
 
 
